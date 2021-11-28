@@ -1,10 +1,24 @@
+
+<x-app-layout>
+
+</x-app-layout>
+
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+
   </head>
   <body>
-    <h1>Hello there I am the Admin</h1>
+  @include("admin.navbar")
+  @include("admin.admincss")
+  @include("admin.adminscript")
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+
   </body>
 </html>

@@ -114,41 +114,92 @@
                     </div>
                     <div class="col-12">
                         <a href="">Home</a>
-                        <a href="">About Us</a>
+
                     </div>
                 </div>
             </div>
         </div>
         <!-- Page Header End -->
 
-
         <!-- Volunteer Start -->
         <div class="volunteer" data-parallax="scroll" >
+
             <div class="container">
+
+
                 <div class="row align-items-center">
+
+
                     <div class="col-lg-5">
+
                         <div class="volunteer-form">
-                            <form>
+
+                            <h3 style="text-align:center; position: relative; top: -45px;">Register Home Form</h3>
+
+
+
+                            <form name="form1" method="post" action="{{url('/store-form')}}">
+                              @csrf
+
                                 <div class="control-group">
-                                    <input type="text" class="form-control" placeholder="Name" required="required" />
+                                    <input id="name" type="text" name="name" class="form-control" placeholder="Name" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <input type="email" class="form-control" placeholder="Email" required="required" />
+
+                                  <select class="form-control" name="category" placeholder="Category" id="category">
+                                     <option value="" selected disabled>Select Category</option>
+      <option style="color:black;">Children Home</option>
+      <option style="color:black;">Home for the old</option>
+      <option style="color:black;">Other</option>
+
+    </select>
+                                    <!-- <input type="text" class="form-control" placeholder="Category" required="required"
+                                     /> -->
+
+                                </div>
+
+                                <div class="control-group">
+                                    <input id="phone" name="phone" type="text" class="form-control" placeholder="Phone Number" required="required" />
                                 </div>
                                 <div class="control-group">
-                                    <textarea class="form-control" placeholder="Why you want to become a volunteer?" required="required"></textarea>
+                                    <input id="email" name="email" type="email" class="form-control" placeholder="Email" required="required" />
+                                </div>
+                                <div class="control-group">
+                                    <input id="location" name="location" type="text" class="form-control" placeholder="Location" required="required" />
+                                </div>
+                                <div class="control-group">
+<p>
+  image/logo
+                                    <input id="image"  name="image" type="file" class="form-control"  />
+</p>
+
+                                </div>
+                                <div class="control-group">
+                                    <textarea id="description" name="description" class="form-control" placeholder="Description" required="required"></textarea>
                                 </div>
                                 <div>
-                                    <button class="btn btn-custom" type="submit">Register Home</button>
+                                    <button class="btn btn-custom" name="button" type="submit">Register Home</button>
                                 </div>
                             </form>
                         </div>
                     </div>
                     <div class="col-lg-7">
                         <div class="volunteer-content">
-                            <div class="section-header">
+
+                          <div>
+
+                            @if(session('status'))
+                            <div style="position: relative; top: -275px;" class=" alert alert-success">
+                              <button class="close" type="button" name="button" data-dismiss="alert">x</button>
+                              {{ session('status') }}
+                            </div>
+
+
+                              @endif
+                          </div>
+                            <div class="section-header" style="position: relative; top: -105px;">
                                 <p>Register Home</p>
-                                <h2>Let’s make a difference in the lives of others</h2>
+                                <h2 >Let’s make a difference in the lives of others</h2>
                             </div>
                             <div class="volunteer-text">
 

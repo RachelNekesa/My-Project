@@ -134,9 +134,9 @@
                                 <img src="img/blog-1.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <h3><a href="#">Kwetu Home of Peace</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                    Kwetu Home of Peace (KHP) has rescued 26 street boys aged between eight to 14 years, at Central Park, Grogon, Gikomba, Muthurwa, and Country bus in Nairobi–Some of the most common bases where children live while on the street.
                                 </p>
                             </div>
                             <div class="blog-meta">
@@ -150,9 +150,9 @@
                                 <img src="img/blog-2.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <h3><a href="#">Rehema Home</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                  Rehema Home is committed to caring for each child, regardless of their health status, taking them into our Home and providing them with love and instilling in them a hope for a future. We have heard it from many visitors who have walked through our doors, “You are not an orphanage, you are a Home.”
                                 </p>
                             </div>
                             <div class="blog-meta">
@@ -169,7 +169,7 @@
                                 <img src="img/blog-3.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <h3><a href="#">Thomas Barnados Children's Home</a></h3>
                                 <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
@@ -185,9 +185,9 @@
                                 <img src="img/blog-1.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <h3><a href="#">Kenya Childrens Homes</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                We help around 1000 children in Kenya every year. We have a committed team of 200 Kenyan staff, all of whom have the single goal of providing the best care, protection and education to the children.
                                 </p>
                             </div>
                             <div class="blog-meta">
@@ -201,9 +201,9 @@
                                 <img src="img/blog-2.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <h3><a href="#">Dream Children Home</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                  Education is our Main Objective. Making sure that kids are in school and that they are doing well in their studies.
                                 </p>
                             </div>
                             <div class="blog-meta">
@@ -217,7 +217,7 @@
                                 <img src="img/blog-3.jpg" alt="Image">
                             </div>
                             <div class="blog-text">
-                                <h3><a href="#">Lorem ipsum dolor sit</a></h3>
+                                <h3><a href="#">Rehema Home</a></h3>
                                 <p>
                                     Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
                                 </p>
@@ -233,7 +233,7 @@
                         <ul class="pagination justify-content-center">
                             <li class="page-item enabled"><a class="page-link" href="#">Previous</a></li>
                             <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                             <li class="page-item"><a class="page-link" href="#">Next</a></li>
                         </ul>
@@ -242,7 +242,6 @@
             </div>
         </div>
         <!-- Blog End -->
-
 
         <!-- Footer Start -->
         <div class="footer">
