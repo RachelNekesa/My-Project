@@ -27,7 +27,7 @@
         </a>
         <div class="collapse" id="ui-basic">
           <ul class="nav flex-column sub-menu">
-            <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Children Homes</a></li>
+            <li class="nav-item"> <a class="nav-link" href="{{('/registerhomeadmin')}}">Children Homes</a></li>
             <li class="nav-item"> <a class="nav-link" href="pages/ui-features/dropdowns.html">Home for the old</a></li>
             <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Other</a></li>
           </ul>
@@ -83,4 +83,3 @@
   <!-- partial -->
 
       <!-- partial -->
-  

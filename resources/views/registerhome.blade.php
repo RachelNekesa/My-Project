@@ -159,7 +159,8 @@
                                 </div>
 
                                 <div class="control-group">
-                                    <input id="phone" name="phone" type="text" class="form-control" placeholder="Phone Number" required="required" />
+                                    <input id="phone"  name="phone" type="text" class="form-control" placeholder="Phone Number" required="required" />
+                                    <!-- <span class="unit">+254</span> -->
                                 </div>
                                 <div class="control-group">
                                     <input id="email" name="email" type="email" class="form-control" placeholder="Email" required="required" />

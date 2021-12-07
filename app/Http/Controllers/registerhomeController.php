@@ -24,4 +24,7 @@ class registerhomeController extends Controller
           $registerhome->save();
         return redirect('registerhome')->with('status', 'Welfare Home registered successfully');
     }
+
+
+
 }
