@@ -20,10 +20,10 @@
                 <x-jet-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required />
             </div>
 
-            <div>
+            <!-- <div>
                 <x-jet-label for="role" value="{{ __('Role') }}" />
                 <x-jet-input id="role" class="block mt-1 w-full" type="text" name="role" />
-            </div>
+            </div> -->
 
             <div class="mt-4">
                 <x-jet-label for="password" value="{{ __('Password') }}" />

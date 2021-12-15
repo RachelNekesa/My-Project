@@ -171,7 +171,7 @@
                             <div class="blog-text">
                                 <h3><a href="#">Thomas Barnados Children's Home</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                    We help around 1000 children in Kenya every year. We have a committed team of 200 Kenyan staff, all of whom have the single goal of providing the best care, protection and education to the children.
                                 </p>
                             </div>
                             <div class="blog-meta">
@@ -219,7 +219,7 @@
                             <div class="blog-text">
                                 <h3><a href="#">Rehema Home</a></h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                                  We help around 1000 children in Kenya every year. We have a committed team of 200 Kenyan staff, all of whom have the single goal of providing the best care, protection and education to the children.
                                 </p>
                             </div>
                             <div class="blog-meta">

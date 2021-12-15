@@ -11,18 +11,18 @@ class HomeController extends Controller
     {
       return view("home");
     }
-    public function redirects()
-    {
-    $role= Auth::user()->role;
-
-    if($role=='1')
-    {
-      return view('admin.adminhome');
-    }
-    else{
-      return view('home');
-    }
-    }
+    // public function redirects()
+    // {
+    // $role= Auth::user()->role;
+    //
+    // if($role=='1')
+    // {
+    //   return view('admin');
+    // }
+    // else{
+    //   return view('home');
+    // }
+    // }
 
 
 }
